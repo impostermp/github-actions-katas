@@ -32,7 +32,7 @@ public class HelloControllerTest {
         String name = "Sonny";
         HelloController sut = new HelloController();
         System.out.println("testing");
-        assertEquals("Helloo "+name, sut.combineName(name),"Name and greeting not properly combined");
+        assertEquals("Hello "+name, sut.combineName(name),"Name and greeting not properly combined");
         
         
     }
